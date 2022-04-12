@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+/* product-display places the items into a grid with 3 columns,
+  The items are made to be the same size 
+*/
+.product-display{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  align-items: stretch;
+}
+

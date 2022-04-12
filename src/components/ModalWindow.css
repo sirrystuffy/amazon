@@ -1,0 +1,28 @@
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    background-color: #00000071;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal{
+    width: clamp(50%, 700px, 90%);
+    height: min(50%, 300px);
+
+    margin: auto;
+    padding: 0 2rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orange-gradient{
+    background-color: orange;
+}
